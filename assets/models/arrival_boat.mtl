@@ -1,0 +1,26 @@
+# arrival_boat.mtl
+# Materiais simples usados pelo parser WebGL do projeto.
+newmtl boatHull
+Kd 0.13 0.24 0.33
+Ks 0.25 0.25 0.25
+Ns 30
+
+newmtl boatDeck
+Kd 0.55 0.30 0.12
+Ks 0.25 0.18 0.10
+Ns 18
+
+newmtl boatCabin
+Kd 0.82 0.80 0.68
+Ks 0.2 0.2 0.2
+Ns 20
+
+newmtl boatGlass
+Kd 0.08 0.18 0.24
+Ks 0.7 0.9 1.0
+Ns 85
+
+newmtl boatTrim
+Kd 0.03 0.035 0.04
+Ks 0.55 0.55 0.55
+Ns 70

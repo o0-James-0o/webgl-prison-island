@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alcatraz Brasileira — Passeio Virtual 3D em WebGL Puro</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <canvas id="glCanvas" aria-label="Jogo 3D WebGL: Alcatraz Brasileira"></canvas>
+
+  <main id="menu" class="screen menu-screen active" aria-label="Menu inicial da Alcatraz Brasileira">
+    <img class="screen-bg" src="assets/ui/menu_alcatraz_brasileira.png" alt="Menu inicial da Alcatraz Brasileira com estrada, oceano, farol e controles essenciais" />
+    <button id="startButton" class="screen-hotspot menu-start" type="button" aria-label="Começar passeio" data-x="135" data-y="416" data-w="408" data-h="92">
+      Começar passeio
+    </button>
+  </main>
+
+  <section id="hud" class="hud hidden" aria-live="polite">
+    <div class="hud-top">
+      <div>
+        <span class="hud-label">Setor atual</span>
+        <strong id="zoneText">PÍER / BARCO</strong>
+      </div>
+      <div id="qualityBadge" class="badge">WebGL · -- FPS</div>
+    </div>
+    <div class="progress-track" title="Progresso do passeio">
+      <div id="progressFill" class="progress-fill"></div>
+    </div>
+    <div class="hud-card">
+      <span class="hud-label">Orientação</span>
+      <p id="statusText">Siga pelo caminho de pedra até a entrada.</p>
+      <small id="coordsText">x 0.0 · z 18.2 · yaw 0°</small>
+    </div>
+  </section>
+
+  <div id="crosshair" class="crosshair hidden" aria-hidden="true"></div>
+
+  <div id="cinematicOverlay" class="cinematic-overlay hidden" aria-hidden="true">
+    <div id="cinematicText" class="cinematic-text">CHEGADA À ILHA</div>
+  </div>
+
+  
+
+  <section id="pauseScreen" class="screen pause-screen" aria-label="Menu de pausa">
+    <div class="pause-backdrop"></div>
+    <div class="pause-panel" role="dialog" aria-modal="true" aria-labelledby="pauseTitle">
+      <span class="pause-kicker">PAUSE / MENU RÁPIDO</span>
+      <h2 id="pauseTitle">Passeio pausado</h2>
+      <p class="pause-copy">Retome o passeio quando quiser ou volte ao menu principal. Seu estilo visual foi mantido para uma navegação clara, rápida e sem distrações.</p>
+
+      <div class="pause-tip">
+        <strong>Atalho rápido:</strong> pressione <kbd>Esc</kbd> novamente para continuar.
+      </div>
+
+      <div class="pause-actions">
+        <button id="resumeButton" class="pause-button pause-button-primary" type="button">Continuar passeio</button>
+        <button id="pauseRestartButton" class="pause-button pause-button-secondary" type="button">Reiniciar passeio</button>
+        <button id="pauseMenuButton" class="pause-button pause-button-ghost" type="button">Voltar ao menu</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="endScreen" class="screen end-screen" aria-label="Tela final do passeio virtual">
+    <img class="screen-bg" src="assets/ui/final_alcatraz_brasileira.png" alt="Tela final do passeio virtual pela Alcatraz Brasileira" />
+    <button id="restartButton" class="screen-hotspot end-restart" type="button" aria-label="Fazer passeio novamente" data-x="101" data-y="658" data-w="529" data-h="80">
+      Fazer passeio novamente
+    </button>
+    <button id="exitButton" class="screen-hotspot end-menu" type="button" aria-label="Voltar ao menu" data-x="101" data-y="758" data-w="529" data-h="72">
+      Voltar ao menu
+    </button>
+  </section>
+
+  <script src="src/math.js"></script>
+  <script src="src/shaders.js"></script>
+  <script src="src/geometry.js"></script>
+  <script src="src/objModels.js"></script>
+  <script src="src/textures.js"></script>
+  <script src="src/mesh.js"></script>
+  <script src="src/camera.js"></script>
+  <script src="src/input.js"></script>
+  <script src="src/scene.js"></script>
+  <script src="src/main.js"></script>
+</body>
+</html>
