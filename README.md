@@ -51,79 +51,79 @@ Confira abaixo uma apresentação em vídeo que destaca os principais aspectos d
 
 ## 🖼️ Preview do jogo
 
-<table width="100%" cellspacing="0" cellpadding="0">
+<table width="835" cellspacing="0" cellpadding="0">
   <tr>
-    <td width="50%" valign="top">
+    <td width="417" valign="top">
       <h2>🕹️ Como jogar</h2>
       <h3>🎯 Objetivo</h3>
-      <table width="100%" cellspacing="0" cellpadding="6">
+      <table width="417" cellspacing="0" cellpadding="6">
         <tr align="center">
-          <th width="18%">Meta</th>
-          <th width="70%">Descrição</th>
-          <th width="12%">Visual</th>
+          <th width="105">Meta</th>
+          <th width="250">Descrição</th>
+          <th width="62">Visual</th>
         </tr>
         <tr align="center">
           <td><strong>Chegar à ilha</strong></td>
           <td>Inicie o passeio no píer e caminhe até o posto de fiscalização.</td>
           <td>
-            <img src="assets/wasd.png" alt="Imagem chegada à ilha" width="64" height="64">
+            <img src="assets/ilha.png" alt="Imagem chegada à ilha" width="32" height="32">
           </td>
         </tr>
         <tr align="center">
           <td><strong>Explorar setores</strong></td>
           <td>Passe pelos portões automáticos, refeitório, áreas internas e celas.</td>
           <td>
-            <img src="assets/exp_celas.png" alt="Imagem exploração das celas" width="64" height="64">
+            <img src="assets/exp_celas.png" alt="Imagem exploração das celas" width="32" height="32">
           </td>
         </tr>
         <tr align="center">
           <td><strong>Finalizar passeio</strong></td>
           <td>Conclua a experiência atravessando a porta de saída no setor final.</td>
           <td>
-            <img src="assets/end_passeio.png" alt="Imagem finalização do passeio" width="64" height="64">
+            <img src="assets/end_passeio.png" alt="Imagem finalização do passeio" width="32" height="32">
           </td>
         </tr>
       </table>
       <br>
       <h3>⌨️🖱️ Controles</h3>
-      <table width="100%" cellspacing="0" cellpadding="6">
+      <table width="417" cellspacing="0" cellpadding="6">
         <tr align="center">
-          <th width="18%">Entrada</th>
-          <th width="70%">Descrição</th>
-          <th width="12%">Visual</th>
+          <th width="95">Entrada</th>
+          <th width="260">Descrição</th>
+          <th width="62">Visual</th>
         </tr>
         <tr align="center">
           <td><strong>W A S D</strong></td>
           <td>Move o jogador pelo ambiente 3D.</td>
           <td>
-            <img src="assets/wasd.png" alt="Imagem das teclas WASD" width="64" height="64">
+            <img src="assets/wasd.png" alt="Imagem das teclas WASD" width="32" height="32">
           </td>
         </tr>
         <tr align="center">
           <td><strong>MOUSE</strong></td>
           <td>Controla a direção da câmera em primeira pessoa.</td>
           <td>
-            <img src="assets/mouse.png" alt="Imagem do mouse" width="64" height="64">
+            <img src="assets/mouse.png" alt="Imagem do mouse" width="32" height="32">
           </td>
         </tr>
         <tr align="center">
           <td><strong>SHIFT</strong></td>
           <td>Aumenta a velocidade de deslocamento.</td>
           <td>
-            <img src="assets/shift.png" alt="Imagem da tecla Shift" width="64" height="64">
+            <img src="assets/shift.png" alt="Imagem da tecla Shift" width="32" height="32">
           </td>
         </tr>
         <tr align="center">
           <td><strong>ESC</strong></td>
           <td>Abre ou fecha o menu de pausa.</td>
           <td>
-            <img src="assets/esc1.png" alt="Imagem da tecla ESC" width="64" height="64">
+            <img src="assets/esc1.png" alt="Imagem da tecla ESC" width="32" height="32">
           </td>
         </tr>
       </table>
     </td>
-    <td width="50%" valign="middle" align="center">
-      <img src="assets/readme/gif_jogo.gif" alt="GIF principal do passeio virtual 3D" width="100%">
+    <td width="400" valign="middle" align="center">
+      <img src="assets/gif_alc.gif" alt="GIF principal do passeio virtual 3D" width="400">
     </td>
   </tr>
 </table>
