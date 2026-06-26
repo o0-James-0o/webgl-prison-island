@@ -5,7 +5,6 @@
 <p>
   <img src="assets/banner_alcatraz_brasileira.png" alt="Banner do projeto Alcatraz Brasileira" width="100%">
 </p>
-<br>
 
 <p>
   <img src="https://img.shields.io/badge/WebGL-990000?style=for-the-badge&amp;logo=webgl&amp;logoColor=white" alt="WebGL">
