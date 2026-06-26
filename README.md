@@ -432,35 +432,36 @@ alcatraz-brasileira-webgl/
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/SEU_USUARIO/alcatraz-brasileira-webgl.git
-cd alcatraz-brasileira-webgl
+git clone https://github.com/o0-James-0o/webgl-prison-island.git
+cd webgl-prison-island
 ```
 
-### 2. Inicie um servidor local
+### 2. Inicie com Live Server
 
-Como o navegador pode bloquear carregamento de assets locais por segurança, recomenda-se executar com servidor local:
+No VS Code, clique com o botão direito no arquivo `index.html` e selecione:
 
-```bash
-python -m http.server 8000
+```text
+Open with Live Server
 ```
 
 ### 3. Abra no navegador
 
+O projeto será aberto automaticamente. Caso necessário, acesse:
+
 ```text
-http://localhost:8000
+http://127.0.0.1:5500
 ```
 
-> Também é possível abrir o arquivo `index.html` diretamente, mas o servidor local é a opção mais segura para carregar texturas, arquivos de imagem e assets corretamente.
+> Recomenda-se usar o **Live Server** para carregar corretamente texturas, imagens e demais assets do projeto.
 
 ---
 
 ## 👨‍💻 Autoria
 
-
 <div align="left">
   <img src="assets/James.png" alt="Avatar James Taylor" width="72" height="72" align="middle">
   &nbsp;&nbsp;
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=18&pause=1000&color=A78BFA&vCenter=true&multiline=false&width=660&height=72&lines=James+Taylor+%7C+%F0%9F%96%A5%EF%B8%8F+Entidades,+Interface+visual+e+documenta%C3%A7%C3%A3o." alt="James Taylor | Interface visual e documentação técnica" align="middle">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=18&pause=1000&color=A78BFA&vCenter=true&multiline=false&width=700&height=72&lines=James+Taylor+%7C+%F0%9F%A7%AD+Vis%C3%A3o+geral+e+proje%C3%A7%C3%A3o+de+c%C3%A2mera." alt="James Taylor | Visão geral e projeção de câmera" align="middle">
 </div>
 
 <hr>
@@ -468,7 +469,7 @@ http://localhost:8000
 <div align="left">
   <img src="assets/Lucas_circular.png" alt="Avatar Lucas Almeida" width="72" height="72" align="middle">
   &nbsp;&nbsp;
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=18&pause=1000&color=A78BFA&vCenter=true&multiline=false&width=620&height=72&lines=Lucas+Almeida+%7C+%F0%9F%8E%A8+Algoritmos+gr%C3%A1ficos." alt="Lucas Almeida | Algoritmos gráficos" align="middle">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=18&pause=1000&color=A78BFA&vCenter=true&multiline=false&width=780&height=72&lines=Lucas+Almeida+%7C+%F0%9F%8E%A8+Texturiza%C3%A7%C3%A3o+3D,+leitor+OBJ+e+Skydome." alt="Lucas Almeida | Texturização 3D, leitor OBJ e Skydome" align="middle">
 </div>
 
 <hr>
@@ -476,5 +477,5 @@ http://localhost:8000
 <div align="left">
   <img src="assets/Victor.png" alt="Avatar Victor Reinaldo" width="72" height="72" align="middle">
   &nbsp;&nbsp;
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=18&pause=1000&color=A78BFA&vCenter=true&multiline=false&width=620&height=72&lines=Victor+Reinaldo+%7C+%E2%9A%99%EF%B8%8F+L%C3%B3gica+e+mec%C3%A2nicas+principais." alt="Victor Reinaldo | Lógica e mecânicas principais" align="middle">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=18&pause=1000&color=A78BFA&vCenter=true&multiline=false&width=820&height=72&lines=Victor+Reinaldo+%7C+%F0%9F%92%A1+Ilumina%C3%A7%C3%A3o,+transforma%C3%A7%C3%B5es+3D+e+anima%C3%A7%C3%B5es." alt="Victor Reinaldo | Iluminação, transformações 3D e animações" align="middle">
 </div>
