@@ -477,5 +477,5 @@ http://127.0.0.1:5500
 <div align="left">
   <img src="assets/Victor.png" alt="Avatar Victor Reinaldo" width="72" height="72" align="middle">
   &nbsp;&nbsp;
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=18&pause=1000&color=A78BFA&vCenter=true&multiline=false&width=820&height=72&lines=Victor+Reinaldo+%7C+%F0%9F%92%A1+Ilumina%C3%A7%C3%A3o,+transforma%C3%A7%C3%B5es+3D+e+anima%C3%A7%C3%B5es." alt="alt="Victor Reinaldo | Iluminação, transformações 3D e animações" align="middle"> 
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=18&pause=1000&color=A78BFA&vCenter=true&multiline=false&width=820&height=72&lines=Victor+Reinaldo+%7C+%F0%9F%92%A1+Ilumina%C3%A7%C3%A3o,+transforma%C3%A7%C3%B5es+3D+e+anima%C3%A7%C3%B5es." alt="Victor Reinaldo | Iluminação, transformações 3D e animações" align="middle"> 
 </div>
