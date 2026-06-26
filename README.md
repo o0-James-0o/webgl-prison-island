@@ -2,8 +2,9 @@
 
 # 🏝️ Alcatraz Brasileira
 
-<img src="assets/banner_alcatraz_brasileira.png" alt="Banner do projeto Alcatraz Brasileira" width="100%">
-
+<p>
+  <img src="assets/banner_alcatraz_brasileira.png" alt="Banner do projeto Alcatraz Brasileira" width="100%">
+</p>
 <br>
 
 <p>
