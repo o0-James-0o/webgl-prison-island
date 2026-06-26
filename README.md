@@ -66,21 +66,21 @@ Confira abaixo uma apresentação em vídeo que destaca os principais aspectos d
           <td><strong>Chegar à ilha</strong></td>
           <td>Inicie o passeio no píer e caminhe até o posto de fiscalização.</td>
           <td>
-            <img src="assets/wasd.png" alt="Imagem chegada à ilha" width="32" height="32">
+            <img src="assets/wasd.png" alt="Imagem chegada à ilha" width="64" height="64">
           </td>
         </tr>
         <tr align="center">
           <td><strong>Explorar setores</strong></td>
           <td>Passe pelos portões automáticos, refeitório, áreas internas e celas.</td>
           <td>
-            <img src="assets/exp_celas.png" alt="Imagem exploração das celas" width="32" height="32">
+            <img src="assets/exp_celas.png" alt="Imagem exploração das celas" width="64" height="64">
           </td>
         </tr>
         <tr align="center">
           <td><strong>Finalizar passeio</strong></td>
           <td>Conclua a experiência atravessando a porta de saída no setor final.</td>
           <td>
-            <img src="assets/end_passeio.png" alt="Imagem finalização do passeio" width="32" height="32">
+            <img src="assets/end_passeio.png" alt="Imagem finalização do passeio" width="64" height="64">
           </td>
         </tr>
       </table>
