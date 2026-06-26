@@ -142,11 +142,21 @@ Confira abaixo uma apresentação em vídeo que destaca os principais aspectos d
       <th>5. Render</th>
     </tr>
     <tr align="center">
-      <td><img src="https://api.iconify.design/mdi:keyboard-outline.svg?color=%230B2A66" width="52" alt="Entrada"></td>
-      <td><img src="https://api.iconify.design/mdi:camera-control.svg?color=%230B2A66" width="52" alt="Câmera"></td>
-      <td><img src="https://api.iconify.design/mdi:cube-outline.svg?color=%230B2A66" width="52" alt="Cena"></td>
-      <td><img src="https://api.iconify.design/mdi:code-tags.svg?color=%230B2A66" width="52" alt="Shaders"></td>
-      <td><img src="https://api.iconify.design/mdi:monitor-screenshot.svg?color=%230B2A66" width="52" alt="Render"></td>
+      <td>
+        <img src="assets/teclado.png" width="52" height="52" alt="Teclado">
+      </td>
+      <td>
+        <img src="https://api.iconify.design/mdi:camera-control.svg?color=%2322C55E" width="52" height="52" alt="Câmera">
+      </td>
+      <td>
+        <img src="https://api.iconify.design/noto:desert-island.svg" width="52" height="52" alt="Cena">
+      </td>
+      <td>
+        <img src="https://api.iconify.design/vscode-icons:file-type-glsl.svg" width="52" height="52" alt="Shaders">
+      </td>
+      <td>
+        <img src="https://api.iconify.design/mdi:monitor-screenshot.svg?color=%23F59E0B" width="52" height="52" alt="Render">
+      </td>
     </tr>
     <tr align="center">
       <td>Teclado e mouse</td>
