@@ -88,7 +88,7 @@ Confira abaixo uma apresentação em vídeo que destaca os principais aspectos d
       <h3>⌨️🖱️ Controles</h3>
       <table width="360" cellspacing="0" cellpadding="5">
         <tr align="center">
-          <th width="80">Entrada</th>
+          <th width="85">Entrada</th>
           <th width="220">Descrição</th>
           <th width="60">Visual</th>
         </tr>
