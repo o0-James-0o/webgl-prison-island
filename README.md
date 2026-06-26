@@ -42,7 +42,7 @@ Confira abaixo uma apresentação em vídeo que destaca os principais aspectos d
         <img src="https://api.iconify.design/simple-icons:youtube.svg?color=%23FF0000" width="36" height="36" alt="YouTube">
       </td>
       <td align="center"><strong>YouTube</strong></td>
-      <td align="center"><a href="#">Adicionar link da demonstração</a></td>
+      <td align="center"><a href="#">https://youtu.be/xPsB85V7Qd0</a></td>
     </tr>
   </table>
 </div>
