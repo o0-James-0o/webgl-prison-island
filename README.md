@@ -66,7 +66,7 @@ Confira abaixo uma apresentação em vídeo que destaca os principais aspectos d
           <td><strong>Chegar à ilha</strong></td>
           <td>Inicie o passeio no píer e caminhe até o posto de fiscalização.</td>
           <td>
-            <img src="assets/ilha.png" alt="Imagem chegada à ilha" width="32" height="32">
+            <img src="assets/wasd.png" alt="Imagem chegada à ilha" width="32" height="32">
           </td>
         </tr>
         <tr align="center">
