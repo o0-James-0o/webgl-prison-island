@@ -51,7 +51,7 @@ Confira abaixo uma apresentação em vídeo que destaca os principais aspectos d
 
 ## 🖼️ Preview do jogo
 
-<table width="780" cellspacing="0" cellpadding="0">
+<table width="800" cellspacing="0" cellpadding="0">
   <tr>
     <td width="360" valign="top">
       <h2>🕹️ Como jogar</h2>
@@ -86,9 +86,9 @@ Confira abaixo uma apresentação em vídeo que destaca os principais aspectos d
       </table>
       <br>
       <h3>⌨️🖱️ Controles</h3>
-      <table width="360" cellspacing="0" cellpadding="5">
+      <table width="380" cellspacing="0" cellpadding="5">
         <tr align="center">
-          <th width="85">Entrada</th>
+          <th width="90">Entrada</th>
           <th width="220">Descrição</th>
           <th width="60">Visual</th>
         </tr>
