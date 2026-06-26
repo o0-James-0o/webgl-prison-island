@@ -338,40 +338,6 @@ O projeto possui um leitor próprio de arquivos OBJ para importar o modelo do Li
 
 ---
 
-## 🌌 Céu com HDR panorâmico
-
-O céu do projeto foi construído a partir de um arquivo **HDR panorâmico** baixado e convertido para uma textura compatível com WebGL. A textura final é aplicada em um **skydome** centralizado na câmera, criando um ambiente noturno 360° sem depender de uma skybox tradicional.
-
-<table width="100%">
-  <tr align="center">
-    <th width="25%">Etapa</th>
-    <th width="55%">Função</th>
-    <th width="20%">Arquivo / técnica</th>
-  </tr>
-  <tr>
-    <td align="center"><strong>HDR original</strong></td>
-    <td>Fonte panorâmica de iluminação visual do céu noturno.</td>
-    <td align="center"><code>.hdr</code></td>
-  </tr>
-  <tr>
-    <td align="center"><strong>Tone mapping</strong></td>
-    <td>Conversão do HDR para imagem visual compatível com textura 2D no navegador.</td>
-    <td align="center"><code>.png</code> / <code>.jpg</code></td>
-  </tr>
-  <tr>
-    <td align="center"><strong>Skydome</strong></td>
-    <td>Esfera grande envolvendo a cena e acompanhando a posição da câmera.</td>
-    <td align="center">Esfera 3D</td>
-  </tr>
-  <tr>
-    <td align="center"><strong>Shader do céu</strong></td>
-    <td>Amostragem da textura equiretangular a partir da direção de visão.</td>
-    <td align="center">GLSL</td>
-  </tr>
-</table>
-
----
-
 ## 🧠 Organização técnica dos arquivos
 
 <table width="100%">
