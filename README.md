@@ -51,16 +51,16 @@ Confira abaixo uma apresentação em vídeo que destaca os principais aspectos d
 
 ## 🖼️ Preview do jogo
 
-<table width="700" cellspacing="0" cellpadding="0">
+<table width="835" cellspacing="0" cellpadding="0">
   <tr>
-    <td width="340" valign="top">
+    <td width="417" valign="top">
       <h2>🕹️ Como jogar</h2>
       <h3>🎯 Objetivo</h3>
-      <table width="340" cellspacing="0" cellpadding="5">
+      <table width="417" cellspacing="0" cellpadding="6">
         <tr align="center">
-          <th width="80">Meta</th>
-          <th width="210">Descrição</th>
-          <th width="50">Visual</th>
+          <th width="105">Meta</th>
+          <th width="250">Descrição</th>
+          <th width="62">Visual</th>
         </tr>
         <tr align="center">
           <td><strong>Chegar à ilha</strong></td>
@@ -86,11 +86,11 @@ Confira abaixo uma apresentação em vídeo que destaca os principais aspectos d
       </table>
       <br>
       <h3>⌨️🖱️ Controles</h3>
-      <table width="340" cellspacing="0" cellpadding="5">
+      <table width="417" cellspacing="0" cellpadding="6">
         <tr align="center">
-          <th width="75">Entrada</th>
-          <th width="215">Descrição</th>
-          <th width="50">Visual</th>
+          <th width="95">Entrada</th>
+          <th width="260">Descrição</th>
+          <th width="62">Visual</th>
         </tr>
         <tr align="center">
           <td><strong>W A S D</strong></td>
@@ -122,12 +122,11 @@ Confira abaixo uma apresentação em vídeo que destaca os principais aspectos d
         </tr>
       </table>
     </td>
-    <td width="340" valign="middle" align="center">
-      <img src="assets/gif_alc.gif" alt="GIF principal do passeio virtual 3D" width="300">
+    <td width="400" valign="middle" align="center">
+      <img src="assets/gif_alc.gif" alt="GIF principal do passeio virtual 3D" width="400">
     </td>
   </tr>
 </table>
-
 ---
 
 ## 🧱 Pipeline gráfico do projeto
