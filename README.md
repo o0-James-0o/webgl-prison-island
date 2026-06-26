@@ -276,6 +276,68 @@ Confira abaixo uma apresentação em vídeo que destaca os principais aspectos d
 
 ---
 
+## 🧩 Técnicas Utilizadas
+
+### 1. Projeção perspectiva e câmera FPS
+
+A projeção perspectiva foi implementada por meio de uma matriz própria com FOV, aspect ratio, near e far, permitindo representar profundidade na cena 3D. A câmera FPS utiliza posição, yaw, pitch, vetores forward e right para simular a navegação em primeira pessoa pelo ambiente da ilha-prisão.
+
+---
+
+<p align="center">
+  <img src="assets/projecao_camera_fps_readme.png" alt="Projeção perspectiva e câmera FPS" width="100%">
+</p>
+
+---
+
+### 2. Iluminação com modelo de Phong
+
+A iluminação foi construída em GLSL utilizando o modelo de Phong, combinando componentes ambiente, difusa e especular. Esse modelo permite destacar volumes, superfícies metálicas, concreto, áreas internas e fontes móveis de luz, como postes, faróis e lanterna automática.
+
+---
+
+<p align="center">
+  <img src="assets/iluminacao_phong_readme.png" alt="Iluminação com modelo de Phong" width="100%">
+</p>
+
+---
+
+### 3. Transformações geométricas e animações 3D
+
+As transformações geométricas organizam os objetos da cena por meio de translação, rotação e escala, compondo a matriz de modelo. As animações utilizam atualização temporal com deltaTime para controlar movimentos contínuos, como abertura de portões, rotação do farol, deslocamento do barco e ondas do oceano.
+
+---
+
+<p align="center">
+  <img src="assets/transformacoes_animacoes_3d_readme.png" alt="Transformações geométricas e animações 3D" width="100%">
+</p>
+
+---
+
+### 4. Texturização 3D
+
+A texturização foi aplicada por meio de coordenadas UV, amostragem de texturas e uso de materiais no fragment shader. Foram utilizadas texturas para concreto, metal, madeira, placas, piso, água, céu e personagens, tornando os setores da Alcatraz Brasileira mais realistas e visualmente distintos.
+
+---
+
+<p align="center">
+  <img src="assets/texturizacao_3d_readme.png" alt="Texturização 3D" width="100%">
+</p>
+
+---
+
+### 5. Leitor próprio de OBJ
+
+O projeto possui um leitor próprio de arquivos OBJ para importar o modelo do Lifeboat. O parser interpreta a estrutura textual do arquivo, processa vértices, faces, grupos e materiais, triangula a malha e converte os dados para buffers WebGL utilizados na renderização do objeto 3D.
+
+---
+
+<p align="center">
+  <img src="assets/leitor_obj_readme.png" alt="Leitor próprio de OBJ" width="100%">
+</p>
+
+---
+
 ## 🌌 Céu com HDR panorâmico
 
 O céu do projeto foi construído a partir de um arquivo **HDR panorâmico** baixado e convertido para uma textura compatível com WebGL. A textura final é aplicada em um **skydome** centralizado na câmera, criando um ambiente noturno 360° sem depender de uma skybox tradicional.
