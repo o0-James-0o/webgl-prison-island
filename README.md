@@ -96,28 +96,28 @@ Confira abaixo uma apresentação em vídeo que destaca os principais aspectos d
           <td><strong>W A S D</strong></td>
           <td>Move o jogador pelo ambiente 3D.</td>
           <td>
-            <img src="assets/readme/wasd.png" alt="Imagem das teclas WASD" width="32" height="32">
+            <img src="assets/wasd.png" alt="Imagem das teclas WASD" width="64" height="64">
           </td>
         </tr>
         <tr align="center">
           <td><strong>MOUSE</strong></td>
           <td>Controla a direção da câmera em primeira pessoa.</td>
           <td>
-            <img src="assets/readme/mouse.png" alt="Imagem do mouse" width="32" height="32">
+            <img src="assets/mouse.png" alt="Imagem do mouse" width="64" height="64">
           </td>
         </tr>
         <tr align="center">
           <td><strong>SHIFT</strong></td>
           <td>Aumenta a velocidade de deslocamento.</td>
           <td>
-            <img src="assets/readme/shift.png" alt="Imagem da tecla Shift" width="32" height="32">
+            <img src="assets/shift.png" alt="Imagem da tecla Shift" width="64" height="64">
           </td>
         </tr>
         <tr align="center">
           <td><strong>ESC</strong></td>
           <td>Abre ou fecha o menu de pausa.</td>
           <td>
-            <img src="assets/readme/esc1.png" alt="Imagem da tecla ESC" width="32" height="32">
+            <img src="assets/esc1.png" alt="Imagem da tecla ESC" width="64" height="64">
           </td>
         </tr>
       </table>
