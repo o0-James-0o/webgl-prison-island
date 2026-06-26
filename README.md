@@ -1,379 +1,430 @@
-# 🌊 Alcatraz Brasileira — Passeio Virtual 3D em WebGL Puro
+<div align="center">
 
-<p align="center">
-  <img src="assets/readme/gameplay_preview.png" alt="Preview do passeio virtual 3D Alcatraz Brasileira" width="100%">
-</p>
+# 🏝️ Alcatraz Brasileira
 
-<p align="center">
-  <img alt="WebGL" src="https://img.shields.io/badge/WebGL-Puro-0B1F5B?style=for-the-badge&logo=webgl&logoColor=white">
-  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-ES6-F7DF1E?style=for-the-badge&logo=javascript&logoColor=111111">
-  <img alt="GLSL" src="https://img.shields.io/badge/GLSL-Shaders-0B1F5B?style=for-the-badge">
-  <img alt="Computação Gráfica" src="https://img.shields.io/badge/Disciplina-Computa%C3%A7%C3%A3o%20Gr%C3%A1fica-0B1F5B?style=for-the-badge">
-  <img alt="Status" src="https://img.shields.io/badge/Status-Finalizado-10B981?style=for-the-badge">
-</p>
+### Passeio Virtual 3D em **WebGL Vanilla**
 
-> Projeto acadêmico da disciplina de **Computação Gráfica**: um passeio virtual 3D em primeira pessoa por uma ilha-prisão fictícia inspirada em uma “Alcatraz Brasileira”, desenvolvido diretamente com **HTML5 Canvas, JavaScript, WebGL e shaders GLSL próprios**.
+<img src="assets/readme/banner_alcatraz_brasileira.png" alt="Banner do projeto Alcatraz Brasileira" width="100%">
 
----
+<br>
 
-## 📌 Descrição do projeto
+<img src="https://img.shields.io/badge/WebGL-990000?style=for-the-badge&amp;logo=webgl&amp;logoColor=white" alt="WebGL">
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&amp;logo=javascript&amp;logoColor=111" alt="JavaScript">
+<img src="https://img.shields.io/badge/GLSL-5586A4?style=for-the-badge&amp;logo=opengl&amp;logoColor=white" alt="GLSL">
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&amp;logo=html5&amp;logoColor=white" alt="HTML5">
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&amp;logo=css3&amp;logoColor=white" alt="CSS3">
 
-O projeto apresenta uma experiência 3D interativa em primeira pessoa, na qual o usuário chega de barco até uma ilha prisional e percorre diferentes setores do ambiente: píer, posto de fiscalização, entrada principal, refeitório, setor de controle/triagem/enfermaria, sala das celas e saída final.
-
-A proposta foi construída para demonstrar, de forma visual e prática, conceitos centrais de Computação Gráfica, incluindo **projeção perspectiva**, **câmera FPS**, **iluminação Phong**, **transformações geométricas**, **animações 3D**, **texturização**, **céu HDRI**, **shader de oceano procedural** e **leitor próprio de OBJ**.
-
-> **Observação de escopo:** o cenário e seus personagens são estilizados e satíricos. O uso de nomes, placas ou retratos no ambiente virtual é apenas recurso narrativo/visual do trabalho e não representa afirmação factual sobre pessoas reais.
+</div>
 
 ---
 
-## 🎮 Preview da experiência
+## 📌 Sobre o projeto
 
-<table width="100%">
-  <tr>
-    <th width="50%" align="center">Menu inicial</th>
-    <th width="50%" align="center">Tela final</th>
-  </tr>
-  <tr>
-    <td align="center"><img src="assets/readme/menu_screen.png" alt="Menu inicial do passeio virtual" width="100%"></td>
-    <td align="center"><img src="assets/readme/final_screen.png" alt="Tela final do passeio virtual" width="100%"></td>
-  </tr>
-</table>
+**Alcatraz Brasileira** é um passeio virtual 3D em primeira pessoa desenvolvido como projeto prático da disciplina de **Computação Gráfica**.
 
-<p align="center">
-  <img src="assets/readme/technical_cards.png" alt="Cards dos recursos técnicos avaliados" width="100%">
-</p>
+O objetivo do projeto é conduzir o usuário por uma ilha-prisão fictícia, passando pelo píer, posto de fiscalização, estrada principal, portões automáticos, refeitório, áreas internas, sala das celas e finalização do passeio. A partir dessa proposta, o projeto aplica, de forma visual e interativa, conceitos como **WebGL**, **shaders GLSL**, **projeção perspectiva**, **câmera FPS**, **iluminação Phong**, **fontes de luz móveis**, **transformações geométricas**, **animações 3D**, **texturização**, **céu HDRI**, **oceano procedural** e **leitor próprio de OBJ**.
 
 ---
 
-## 🕹️ Como jogar
+## ▶️ Vídeo do projeto
 
-<table width="100%">
-  <tr>
-    <th width="18%" align="center">Entrada</th>
-    <th width="42%" align="center">Ação</th>
-    <th width="40%" align="center">Uso no passeio</th>
-  </tr>
-  <tr>
-    <td align="center"><strong>W / A / S / D</strong></td>
-    <td>Movimentação em primeira pessoa.</td>
-    <td>Permite explorar o píer, a estrada, os corredores e as celas.</td>
-  </tr>
-  <tr>
-    <td align="center"><strong>Mouse</strong></td>
-    <td>Controle da direção da câmera.</td>
-    <td>Atualiza yaw/pitch para olhar ao redor do ambiente 3D.</td>
-  </tr>
-  <tr>
-    <td align="center"><strong>Shift</strong></td>
-    <td>Correr.</td>
-    <td>Aumenta a velocidade de deslocamento durante a navegação.</td>
-  </tr>
-  <tr>
-    <td align="center"><strong>ESC</strong></td>
-    <td>Pausar / retomar menu rápido.</td>
-    <td>Abre o menu de pausa sobre o jogo com fundo desfocado.</td>
-  </tr>
-  <tr>
-    <td align="center"><strong>Clique</strong></td>
-    <td>Capturar o mouse no canvas.</td>
-    <td>Ativa o controle livre da câmera no navegador.</td>
-  </tr>
-</table>
+Confira abaixo uma apresentação em vídeo que destaca os principais aspectos do projeto, incluindo a exploração do ambiente em 3D, a navegação em primeira pessoa, os efeitos visuais e as interações disponíveis durante a experiência.
+
+<div align="center">
+  <table width="100%">
+    <tr>
+      <th width="15%" align="center">Ícone</th>
+      <th width="20%" align="center">Plataforma</th>
+      <th width="65%" align="center">Link do vídeo</th>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="https://api.iconify.design/simple-icons:youtube.svg?color=%23FF0000" width="36" height="36" alt="YouTube">
+      </td>
+      <td align="center"><strong>YouTube</strong></td>
+      <td align="center"><a href="#">Adicionar link da demonstração</a></td>
+    </tr>
+  </table>
+</div>
 
 ---
 
-## ✅ Requisitos técnicos atendidos
+## 🖼️ Preview do jogo
 
-<table width="100%">
+<table width="100%" cellspacing="0" cellpadding="0">
   <tr>
-    <th width="28%" align="center">Requisito</th>
-    <th width="42%" align="center">Implementação no projeto</th>
-    <th width="30%" align="center">Arquivos principais</th>
-  </tr>
-  <tr>
-    <td><strong>Movimentação de câmera com projeção perspectiva</strong></td>
-    <td>Câmera FPS com posição, yaw, pitch, matriz de visão e matriz de projeção perspectiva.</td>
-    <td><code>src/camera.js</code><br><code>src/math.js</code><br><code>src/main.js</code></td>
-  </tr>
-  <tr>
-    <td><strong>Iluminação com modelo de Phong</strong></td>
-    <td>Shader com componentes ambiente, difusa e especular, usando normais, posição da câmera, brilho e atenuação.</td>
-    <td><code>src/shaders.js</code><br><code>src/mesh.js</code></td>
-  </tr>
-  <tr>
-    <td><strong>Fonte de luz móvel</strong></td>
-    <td>Farol rotativo, feixe visual animado e iluminação atualizada ao longo do tempo.</td>
-    <td><code>src/scene.js</code><br><code>src/shaders.js</code></td>
-  </tr>
-  <tr>
-    <td><strong>Objeto animado por transformações geométricas</strong></td>
-    <td>Portões automáticos, barco da introdução, faróis, oceano e transições controladas por tempo.</td>
-    <td><code>src/scene.js</code><br><code>src/main.js</code></td>
-  </tr>
-  <tr>
-    <td><strong>Objeto com textura</strong></td>
-    <td>Texturas em concreto, piso, madeira, grama/solo, oceano, placas, céu HDRI e retratos.</td>
-    <td><code>src/textures.js</code><br><code>assets/</code></td>
-  </tr>
-  <tr>
-    <td><strong>Objeto com cor sólida</strong></td>
-    <td>Grades, postes, blocos estruturais, placas simples e volumes arquitetônicos de apoio.</td>
-    <td><code>src/scene.js</code></td>
-  </tr>
-  <tr>
-    <td><strong>WebGL puro</strong></td>
-    <td>Renderização feita diretamente com WebGL, buffers, uniforms, matrizes e shaders próprios.</td>
-    <td><code>index.html</code><br><code>src/shaders.js</code><br><code>src/mesh.js</code></td>
-  </tr>
-  <tr>
-    <td><strong>Leitor próprio de OBJ</strong></td>
-    <td>Parser simples para o Lifeboat: lê vértices, grupos/materiais e faces; triangula e calcula normais.</td>
-    <td><code>src/geometry.js</code><br><code>src/objModels.js</code></td>
+    <td width="50%" valign="top">
+      <h2>🕹️ Como jogar</h2>
+      <h3>🎯 Objetivo</h3>
+      <table width="100%" cellspacing="0" cellpadding="6">
+        <tr align="center">
+          <th width="18%">Meta</th>
+          <th width="70%">Descrição</th>
+          <th width="12%">Visual</th>
+        </tr>
+        <tr align="center">
+          <td><strong>Chegar à ilha</strong></td>
+          <td>Inicie o passeio no píer e caminhe até o posto de fiscalização.</td>
+          <td>
+            <img src="https://api.iconify.design/mdi:ferry.svg?color=%230EA5E9" alt="Ícone barco" width="32" height="32">
+          </td>
+        </tr>
+        <tr align="center">
+          <td><strong>Explorar setores</strong></td>
+          <td>Passe pelos portões automáticos, refeitório, áreas internas e celas.</td>
+          <td>
+            <img src="https://api.iconify.design/mdi:map-marker-path.svg?color=%232563EB" alt="Ícone caminho" width="32" height="32">
+          </td>
+        </tr>
+        <tr align="center">
+          <td><strong>Finalizar passeio</strong></td>
+          <td>Conclua a experiência atravessando a porta de saída no setor final.</td>
+          <td>
+            <img src="https://api.iconify.design/mdi:door-open.svg?color=%2310B981" alt="Ícone saída" width="32" height="32">
+          </td>
+        </tr>
+      </table>
+      <br>
+      <h3>⌨️🖱️ Controles</h3>
+      <table width="100%" cellspacing="0" cellpadding="6">
+        <tr align="center">
+          <th width="18%">Entrada</th>
+          <th width="70%">Descrição</th>
+          <th width="12%">Visual</th>
+        </tr>
+        <tr align="center">
+          <td><strong>W A S D</strong></td>
+          <td>Move o jogador pelo ambiente 3D.</td>
+          <td>
+            <img src="https://api.iconify.design/mdi:keyboard-outline.svg?color=%2364748B" alt="Ícone teclado" width="32" height="32">
+          </td>
+        </tr>
+        <tr align="center">
+          <td><strong>MOUSE</strong></td>
+          <td>Controla a direção da câmera em primeira pessoa.</td>
+          <td>
+            <img src="https://api.iconify.design/mdi:mouse.svg?color=%23374151" alt="Ícone mouse" width="32" height="32">
+          </td>
+        </tr>
+        <tr align="center">
+          <td><strong>SHIFT</strong></td>
+          <td>Aumenta a velocidade de deslocamento.</td>
+          <td>
+            <img src="https://api.iconify.design/mdi:apple-keyboard-shift.svg?color=%23F97316" alt="Ícone shift" width="32" height="32">
+          </td>
+        </tr>
+        <tr align="center">
+          <td><strong>ESC</strong></td>
+          <td>Abre ou fecha o menu de pausa.</td>
+          <td>
+            <img src="https://api.iconify.design/mdi:keyboard-esc.svg?color=%23EF4444" alt="Ícone ESC" width="32" height="32">
+          </td>
+        </tr>
+      </table>
+    </td>
+    <td width="50%" valign="middle" align="center">
+      <img src="assets/readme/gif_jogo.gif" alt="GIF principal do passeio virtual 3D" width="100%">
+    </td>
   </tr>
 </table>
 
 ---
 
-## 🧠 Principais conceitos de Computação Gráfica
+## 🧱 Pipeline gráfico do projeto
 
-### 1. Câmera FPS e projeção perspectiva
+<div align="center">
+  <table width="100%">
+    <tr align="center">
+      <th>1. Entrada</th>
+      <th>2. Câmera</th>
+      <th>3. Cena</th>
+      <th>4. Shaders</th>
+      <th>5. Render</th>
+    </tr>
+    <tr align="center">
+      <td><img src="https://api.iconify.design/mdi:keyboard-outline.svg?color=%230B2A66" width="52" alt="Entrada"></td>
+      <td><img src="https://api.iconify.design/mdi:camera-control.svg?color=%230B2A66" width="52" alt="Câmera"></td>
+      <td><img src="https://api.iconify.design/mdi:cube-outline.svg?color=%230B2A66" width="52" alt="Cena"></td>
+      <td><img src="https://api.iconify.design/mdi:code-tags.svg?color=%230B2A66" width="52" alt="Shaders"></td>
+      <td><img src="https://api.iconify.design/mdi:monitor-screenshot.svg?color=%230B2A66" width="52" alt="Render"></td>
+    </tr>
+    <tr align="center">
+      <td>Teclado e mouse</td>
+      <td>View + Projection</td>
+      <td>Objetos, materiais e animações</td>
+      <td>GLSL + uniforms</td>
+      <td>Draw calls WebGL</td>
+    </tr>
+  </table>
+</div>
 
-A câmera representa a posição e a orientação do jogador dentro do mundo 3D. O sistema usa vetores de direção para deslocamento e matrizes para transformar a cena até a tela.
+---
 
-<table width="100%">
-  <tr>
-    <th width="25%" align="center">Etapa</th>
-    <th width="75%" align="center">Descrição técnica</th>
-  </tr>
-  <tr>
-    <td><strong>Entrada</strong></td>
-    <td>Teclado e mouse atualizam deslocamento, yaw e pitch.</td>
-  </tr>
-  <tr>
-    <td><strong>View Matrix</strong></td>
-    <td>A matriz de visão é calculada a partir da posição da câmera e da direção observada.</td>
-  </tr>
-  <tr>
-    <td><strong>Projection Matrix</strong></td>
-    <td>A matriz perspectiva usa FOV, aspecto da tela e planos <em>near/far</em>.</td>
-  </tr>
-  <tr>
-    <td><strong>Renderização</strong></td>
-    <td>Os objetos são desenhados com a composição <code>Projection × View × Model</code>.</td>
-  </tr>
-</table>
-
-### 2. Iluminação Phong
-
-O shader padrão calcula a cor final combinando iluminação ambiente, difusa e especular. O projeto também inclui fontes auxiliares, faróis, lanterna automática nas celas e influência do céu noturno.
-
-```text
-Phong = ambiente + difusa + especular
-```
-
-### 3. Transformações geométricas e animações
-
-Cada objeto possui sua própria matriz de modelo. As transformações de **translação**, **rotação** e **escala** são usadas para posicionar, orientar e animar elementos da cena.
+## 🧩 Mecânicas e elementos principais
 
 <table width="100%">
   <tr align="center">
-    <th width="20%">Elemento</th>
-    <th width="45%">Animação / transformação</th>
-    <th width="35%">Função visual</th>
+    <th width="25%">Elemento</th>
+    <th width="55%">Descrição técnica</th>
+    <th width="20%">Demonstração conceitual</th>
   </tr>
   <tr>
-    <td><strong>Barco</strong></td>
-    <td>Movimento de introdução cinematográfica no mar.</td>
-    <td>Simula a chegada do usuário à ilha.</td>
+    <td align="center"><strong>Introdução cinematográfica</strong></td>
+    <td>A câmera inicia no mar, acompanha a chegada pelo Lifeboat e libera os controles após o desembarque.</td>
+    <td align="center"><img src="https://api.iconify.design/mdi:movie-open-play.svg?color=%230B2A66" width="52" alt="Cinemática"></td>
   </tr>
   <tr>
-    <td><strong>Farol</strong></td>
-    <td>Rotação contínua do feixe de luz.</td>
-    <td>Atende ao requisito de fonte móvel e reforça o ambiente noturno.</td>
+    <td align="center"><strong>Sally Port</strong></td>
+    <td>Portão externo com abertura automática por proximidade, criando a sensação de entrada controlada na prisão.</td>
+    <td align="center"><img src="https://api.iconify.design/mdi:gate-open.svg?color=%230B2A66" width="52" alt="Portão"></td>
   </tr>
   <tr>
-    <td><strong>Portões</strong></td>
-    <td>Abertura automática por proximidade.</td>
-    <td>Conduz o fluxo do passeio.</td>
+    <td align="center"><strong>Posto de fiscalização</strong></td>
+    <td>Estrutura 3D com janela fumê, porta lateral automática com pivô realista, mesa, cadeira e monitores.</td>
+    <td align="center"><img src="https://api.iconify.design/mdi:security.svg?color=%230B2A66" width="52" alt="Posto"></td>
   </tr>
   <tr>
-    <td><strong>Oceano</strong></td>
-    <td>Vértices deslocados no shader por funções de onda.</td>
-    <td>Cria sensação de água procedural em movimento.</td>
+    <td align="center"><strong>Faróis</strong></td>
+    <td>Torres com feixe visual e rotação contínua, reforçando a ambientação noturna e a leitura espacial da ilha.</td>
+    <td align="center"><img src="https://api.iconify.design/mdi:lighthouse.svg?color=%230B2A66" width="52" alt="Farol"></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Ambientes internos</strong></td>
+    <td>Refeitório, controle, enfermagem e celas organizados em sequência para estruturar o percurso do jogador.</td>
+    <td align="center"><img src="https://api.iconify.design/mdi:floor-plan.svg?color=%230B2A66" width="52" alt="Ambientes"></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Sala das celas</strong></td>
+    <td>Ambiente mais escuro com lanterna automática e luz vermelha fraca para alterar a atmosfera final do passeio.</td>
+    <td align="center"><img src="https://api.iconify.design/mdi:flashlight.svg?color=%230B2A66" width="52" alt="Lanterna"></td>
   </tr>
 </table>
 
 ---
 
-## 🌌 Céu noturno com HDRI 4K
-
-O céu foi construído com uma textura panorâmica HDRI noturna, convertida para uma versão tonemapped compatível com WebGL. Essa imagem é aplicada em uma malha esférica ao redor da câmera, criando um **skydome** com maior profundidade visual.
+## 🧠 Conceitos de Computação Gráfica aplicados
 
 <table width="100%">
-  <tr>
-    <th width="20%" align="center">Etapa</th>
-    <th width="80%" align="center">Processo utilizado</th>
+  <tr align="center">
+    <th width="25%">Conceito</th>
+    <th width="50%">Como foi implementado</th>
+    <th width="25%">Resultado visual</th>
   </tr>
   <tr>
-    <td><strong>1. Seleção</strong></td>
-    <td>Uso de arquivo HDRI noturno em alta resolução para representar estrelas, horizonte e atmosfera.</td>
+    <td align="center"><strong>Projeção perspectiva</strong></td>
+    <td>Matriz perspective própria com FOV, aspect ratio, near e far para gerar profundidade na cena.</td>
+    <td align="center"><img src="https://api.iconify.design/mdi:perspective-less.svg?color=%230B2A66" width="48" alt="Perspectiva"></td>
   </tr>
   <tr>
-    <td><strong>2. Tonemap</strong></td>
-    <td>Conversão para imagem compatível com WebGL, preservando nitidez e contraste do ambiente noturno.</td>
+    <td align="center"><strong>Câmera FPS</strong></td>
+    <td>Posição e orientação controladas por teclado e mouse, usando yaw, pitch, forward e right.</td>
+    <td align="center"><img src="https://api.iconify.design/mdi:video-3d.svg?color=%230B2A66" width="48" alt="Câmera FPS"></td>
   </tr>
   <tr>
-    <td><strong>3. Skydome</strong></td>
-    <td>Aplicação da textura panorâmica em uma esfera centralizada na posição da câmera.</td>
+    <td align="center"><strong>Iluminação Phong</strong></td>
+    <td>Shader GLSL com componentes ambiente, difusa e especular, além de normais e posição da luz.</td>
+    <td align="center"><img src="https://api.iconify.design/mdi:lightbulb-on.svg?color=%230B2A66" width="48" alt="Phong"></td>
   </tr>
   <tr>
-    <td><strong>4. Integração</strong></td>
-    <td>O céu é renderizado separadamente com shader próprio para não interferir na profundidade dos objetos.</td>
+    <td align="center"><strong>Transformações 3D</strong></td>
+    <td>Objetos posicionados com matrizes de translação, rotação e escala, compondo o pipeline Model-View-Projection.</td>
+    <td align="center"><img src="https://api.iconify.design/mdi:axis-arrow.svg?color=%230B2A66" width="48" alt="Transformações"></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Animações</strong></td>
+    <td>Atualização temporal com deltaTime para farol, portões, barco, oceano, luzes e elementos da cena.</td>
+    <td align="center"><img src="https://api.iconify.design/mdi:animation-play.svg?color=%230B2A66" width="48" alt="Animações"></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Texturização</strong></td>
+    <td>Mapeamento UV, texturas procedurais e imagens para concreto, metal, madeira, placas, céu e faces.</td>
+    <td align="center"><img src="https://api.iconify.design/mdi:texture-box.svg?color=%230B2A66" width="48" alt="Texturas"></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Leitor OBJ</strong></td>
+    <td>Parser próprio para importar o modelo Lifeboat, interpretando vértices, faces e grupos do arquivo OBJ.</td>
+    <td align="center"><img src="https://api.iconify.design/mdi:cube-scan.svg?color=%230B2A66" width="48" alt="OBJ"></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Céu HDR</strong></td>
+    <td>HDR panorâmico convertido para textura tone-mapped e aplicado como skydome 360° em torno da câmera.</td>
+    <td align="center"><img src="https://api.iconify.design/mdi:panorama-variant.svg?color=%230B2A66" width="48" alt="HDR"></td>
   </tr>
 </table>
 
 ---
 
-## 📦 Leitor próprio de OBJ
+## 🌌 Céu com HDR panorâmico
 
-O projeto utiliza um leitor OBJ simples implementado no próprio código para carregar o modelo low-poly do barco de chegada.
+O céu do projeto foi construído a partir de um arquivo **HDR panorâmico** baixado e convertido para uma textura compatível com WebGL. A textura final é aplicada em um **skydome** centralizado na câmera, criando um ambiente noturno 360° sem depender de uma skybox tradicional.
 
 <table width="100%">
-  <tr>
-    <th width="30%" align="center">Recurso do parser</th>
-    <th width="70%" align="center">Comportamento no projeto</th>
+  <tr align="center">
+    <th width="25%">Etapa</th>
+    <th width="55%">Função</th>
+    <th width="20%">Arquivo / técnica</th>
   </tr>
   <tr>
-    <td><strong>Vértices</strong></td>
-    <td>Lê linhas <code>v</code> do arquivo OBJ e armazena as posições originais da malha.</td>
+    <td align="center"><strong>HDR original</strong></td>
+    <td>Fonte panorâmica de iluminação visual do céu noturno.</td>
+    <td align="center"><code>.hdr</code></td>
   </tr>
   <tr>
-    <td><strong>Grupos e materiais</strong></td>
-    <td>Interpreta <code>g</code>, <code>o</code> e <code>usemtl</code> para separar partes do modelo.</td>
+    <td align="center"><strong>Tone mapping</strong></td>
+    <td>Conversão do HDR para imagem visual compatível com textura 2D no navegador.</td>
+    <td align="center"><code>.png</code> / <code>.jpg</code></td>
   </tr>
   <tr>
-    <td><strong>Faces</strong></td>
-    <td>Lê faces <code>f</code> e triangula polígonos usando fan triangulation.</td>
+    <td align="center"><strong>Skydome</strong></td>
+    <td>Esfera grande envolvendo a cena e acompanhando a posição da câmera.</td>
+    <td align="center">Esfera 3D</td>
   </tr>
   <tr>
-    <td><strong>Normais</strong></td>
-    <td>Calcula normais planas manualmente para permitir iluminação no modelo.</td>
-  </tr>
-  <tr>
-    <td><strong>Buffers WebGL</strong></td>
-    <td>Converte a geometria final em arrays de posições, normais, coordenadas UV simples e índices.</td>
+    <td align="center"><strong>Shader do céu</strong></td>
+    <td>Amostragem da textura equiretangular a partir da direção de visão.</td>
+    <td align="center">GLSL</td>
   </tr>
 </table>
 
-> O cenário principal foi construído manualmente no código. O OBJ é usado especificamente para o **Lifeboat**, permitido porque o projeto implementa seu próprio leitor do formato.
+---
+
+## 🧠 Organização técnica dos arquivos
+
+<table width="100%">
+  <tr align="center">
+    <th width="24%">Arquivo</th>
+    <th width="56%">Responsabilidade</th>
+    <th width="20%">Área</th>
+  </tr>
+  <tr>
+    <td align="center"><code>math.js</code></td>
+    <td>Operações vetoriais e matriciais: identidade, translação, rotação, escala, lookAt, perspective e matriz normal.</td>
+    <td align="center">Matemática 3D</td>
+  </tr>
+  <tr>
+    <td align="center"><code>geometry.js</code></td>
+    <td>Geração de malhas básicas e parser OBJ para modelos externos.</td>
+    <td align="center">Geometria</td>
+  </tr>
+  <tr>
+    <td align="center"><code>textures.js</code></td>
+    <td>Criação de texturas procedurais, texturas de imagem, faces ovais, placas e céu HDR.</td>
+    <td align="center">Texturas</td>
+  </tr>
+  <tr>
+    <td align="center"><code>mesh.js</code></td>
+    <td>Criação dos buffers WebGL e desenho das malhas.</td>
+    <td align="center">Renderização</td>
+  </tr>
+  <tr>
+    <td align="center"><code>camera.js</code></td>
+    <td>Controle da câmera em primeira pessoa e atualização da direção de visão.</td>
+    <td align="center">Câmera</td>
+  </tr>
+  <tr>
+    <td align="center"><code>input.js</code></td>
+    <td>Eventos de teclado, mouse e pointer lock para navegação.</td>
+    <td align="center">Entrada</td>
+  </tr>
+  <tr>
+    <td align="center"><code>shaders.js</code></td>
+    <td>Shaders GLSL para objetos, água e céu.</td>
+    <td align="center">GLSL</td>
+  </tr>
+  <tr>
+    <td align="center"><code>scene.js</code></td>
+    <td>Construção da ilha, objetos, portas, faróis, ambientes internos, animações e colisões.</td>
+    <td align="center">Cena</td>
+  </tr>
+  <tr>
+    <td align="center"><code>main.js</code></td>
+    <td>Inicialização do WebGL, loop principal, HUD, estados de jogo, pause e introdução cinematográfica.</td>
+    <td align="center">Aplicação</td>
+  </tr>
+</table>
 
 ---
 
-## 🧩 Estrutura do projeto
+## 📁 Estrutura do projeto
 
 ```text
 alcatraz-brasileira-webgl/
-├── index.html                  # Estrutura HTML, telas e canvas
-├── style.css                   # Interface, HUD, menu, pausa e tela final
+│
+├── index.html                  # Estrutura HTML, telas e canvas WebGL
+├── style.css                   # Interface, HUD, menu inicial, pausa e tela final
 ├── README.md                   # Documentação do projeto
 │
 ├── assets/
 │   ├── models/
-│   │   └── Lifeboat.obj        # Modelo OBJ usado na chegada
-│   ├── readme/                 # Imagens usadas nesta documentação
-│   ├── ui/                     # Imagens das telas inicial e final
-│   ├── *_portrait.jpg          # Texturas de retratos usadas nas celas
+│   │   └── Lifeboat.obj        # Modelo OBJ usado na chegada de barco
+│   ├── readme/                 # Imagens e GIFs usados nesta documentação
+│   ├── ui/                     # Telas inicial e final
+│   ├── *_portrait.jpg          # Retratos/texturas usadas nas celas
 │   └── qwantani_*.hdr/png/jpg  # HDRI e versões tonemapped do céu
 │
 └── src/
-    ├── math.js                 # Vetores, matrizes e álgebra linear própria
+    ├── math.js                 # Vetores, matrizes e álgebra linear
     ├── camera.js               # Câmera em primeira pessoa
     ├── input.js                # Teclado, mouse e pointer lock
-    ├── shaders.js              # Shaders GLSL: padrão, água e céu
+    ├── shaders.js              # Shaders GLSL padrão, água e céu
     ├── textures.js             # Texturas procedurais e carregamento de imagens
     ├── geometry.js             # Geometrias manuais e leitor OBJ
     ├── mesh.js                 # Meshes, materiais e objetos de cena
     ├── scene.js                # Construção manual do cenário 3D
     ├── objModels.js            # OBJ embutido para carregamento no navegador
-    └── main.js                 # Loop principal, HUD, estados e renderização
+    └── main.js                 # Loop principal, estados, HUD e renderização
 ```
 
 ---
 
 ## 🚀 Como executar
 
-### 1. Clonar ou baixar o projeto
+### 1. Clone o repositório
 
 ```bash
-git clone <URL_DO_REPOSITORIO>
+git clone https://github.com/SEU_USUARIO/alcatraz-brasileira-webgl.git
 cd alcatraz-brasileira-webgl
 ```
 
-### 2. Iniciar um servidor local
+### 2. Inicie um servidor local
+
+Como o navegador pode bloquear carregamento de assets locais por segurança, recomenda-se executar com servidor local:
 
 ```bash
 python -m http.server 8000
 ```
 
-### 3. Abrir no navegador
+### 3. Abra no navegador
 
 ```text
 http://localhost:8000
 ```
 
-> O servidor local é recomendado para garantir o carregamento correto das texturas, imagens de interface e arquivos de apoio.
+> Também é possível abrir o arquivo `index.html` diretamente, mas o servidor local é a opção mais segura para carregar texturas, arquivos de imagem e assets corretamente.
 
 ---
 
-## 🧪 Organização técnica da renderização
+## 👨‍💻 Autoria
 
-<table width="100%">
-  <tr>
-    <th width="24%" align="center">Camada</th>
-    <th width="76%" align="center">Responsabilidade</th>
-  </tr>
-  <tr>
-    <td><strong>Inicialização</strong></td>
-    <td>Criação do contexto WebGL, compilação dos shaders, carregamento das texturas e construção da cena.</td>
-  </tr>
-  <tr>
-    <td><strong>Loop principal</strong></td>
-    <td>Atualiza tempo, entrada, câmera, animações, HUD e chama o desenho da cena a cada frame.</td>
-  </tr>
-  <tr>
-    <td><strong>Shaders</strong></td>
-    <td>Separação entre shader padrão dos objetos, shader procedural da água e shader do céu HDRI.</td>
-  </tr>
-  <tr>
-    <td><strong>Cena</strong></td>
-    <td>Organiza objetos opacos, transparentes, skybox/skydome, água, arquitetura, portas e personagens.</td>
-  </tr>
-  <tr>
-    <td><strong>Interface</strong></td>
-    <td>Menu inicial, HUD de setor/orientação, FPS dinâmico, crosshair, pausa e tela final.</td>
-  </tr>
-</table>
 
----
+<div align="left">
+  <img src="assets/James.png" alt="Avatar James Taylor" width="72" height="72" align="middle">
+  &nbsp;&nbsp;
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=18&pause=1000&color=A78BFA&vCenter=true&multiline=false&width=660&height=72&lines=James+Taylor+%7C+%F0%9F%96%A5%EF%B8%8F+Entidades,+Interface+visual+e+documenta%C3%A7%C3%A3o." alt="James Taylor | Interface visual e documentação técnica" align="middle">
+</div>
 
-## 👨‍💻 Equipe
+<hr>
 
-<table width="100%">
-  <tr>
-    <th width="33%" align="center">James Taylor</th>
-    <th width="33%" align="center">Victor Reinaldo</th>
-    <th width="33%" align="center">Lucas Almeida</th>
-  </tr>
-  <tr align="center">
-    <td>Projeto, documentação, UI/UX e integração visual.</td>
-    <td>Técnicas gráficas, transformações, iluminação e ajustes de cena.</td>
-    <td>Texturização, HDRI, OBJ, organização e testes finais.</td>
-  </tr>
-</table>
+<div align="left">
+  <img src="assets/Lucas_circular.png" alt="Avatar Lucas Almeida" width="72" height="72" align="middle">
+  &nbsp;&nbsp;
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=18&pause=1000&color=A78BFA&vCenter=true&multiline=false&width=620&height=72&lines=Lucas+Almeida+%7C+%F0%9F%8E%A8+Algoritmos+gr%C3%A1ficos." alt="Lucas Almeida | Algoritmos gráficos" align="middle">
+</div>
 
----
+<hr>
 
-## ✅ Conclusão
-
-O projeto demonstra uma cena 3D completa construída em **WebGL puro**, unindo requisitos técnicos obrigatórios e uma proposta visual imersiva. A experiência combina câmera em primeira pessoa, renderização com shaders GLSL, iluminação Phong, animações por transformações geométricas, texturas, céu HDRI, oceano procedural e um leitor OBJ próprio para o barco de chegada.
-
+<div align="left">
+  <img src="assets/Victor.png" alt="Avatar Victor Reinaldo" width="72" height="72" align="middle">
+  &nbsp;&nbsp;
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=18&pause=1000&color=A78BFA&vCenter=true&multiline=false&width=620&height=72&lines=Victor+Reinaldo+%7C+%E2%9A%99%EF%B8%8F+L%C3%B3gica+e+mec%C3%A2nicas+principais." alt="Victor Reinaldo | Lógica e mecânicas principais" align="middle">
+</div>
