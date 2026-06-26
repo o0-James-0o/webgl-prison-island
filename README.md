@@ -53,13 +53,13 @@ Confira abaixo uma apresentação em vídeo que destaca os principais aspectos d
 
 <table width="800" cellspacing="0" cellpadding="0">
   <tr>
-    <td width="360" valign="top">
+    <td width="370" valign="top">
       <h2>🕹️ Como jogar</h2>
       <h3>🎯 Objetivo</h3>
       <table width="360" cellspacing="0" cellpadding="5">
         <tr align="center">
           <th width="85">Meta</th>
-          <th width="215">Descrição</th>
+          <th width="225">Descrição</th>
           <th width="60">Visual</th>
         </tr>
         <tr align="center">
@@ -86,7 +86,7 @@ Confira abaixo uma apresentação em vídeo que destaca os principais aspectos d
       </table>
       <br>
       <h3>⌨️🖱️ Controles</h3>
-      <table width="380" cellspacing="0" cellpadding="5">
+      <table width="370" cellspacing="0" cellpadding="5">
         <tr align="center">
           <th width="90">Entrada</th>
           <th width="220">Descrição</th>
