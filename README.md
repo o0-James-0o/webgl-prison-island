@@ -182,42 +182,42 @@ Confira abaixo uma apresentação em vídeo que destaca os principais aspectos d
     <td align="center"><strong>Introdução cinematográfica</strong></td>
     <td>A câmera inicia no mar, acompanha a chegada pelo Lifeboat e libera os controles após o desembarque.</td>
     <td align="center">
-      <img src="assets/gif_alc.gif" width="180" alt="GIF da introdução cinematográfica">
+      <img src="assets/gif_alc.gif" width="150" height="100" alt="GIF da introdução cinematográfica">
     </td>
   </tr>
   <tr>
     <td align="center"><strong>Portão automático</strong></td>
     <td>Portão externo com abertura automática por proximidade, criando a sensação de entrada controlada na prisão.</td>
     <td align="center">
-      <img src="assets/portao.gif" width="180" alt="GIF do portão automático">
+      <img src="assets/portao.gif" width="150" alt="GIF do portão automático">
     </td>
   </tr>
   <tr>
     <td align="center"><strong>Posto de fiscalização</strong></td>
     <td>Estrutura 3D com janela fumê, porta lateral automática com pivô realista, mesa, cadeira e monitores.</td>
     <td align="center">
-      <img src="assets/post_fisc.gif" width="180" alt="GIF do posto de fiscalização">
+      <img src="assets/post_fisc.gif" width="150" alt="GIF do posto de fiscalização">
     </td>
   </tr>
   <tr>
     <td align="center"><strong>Faróis</strong></td>
     <td>Torres com feixe visual e rotação contínua, reforçando a ambientação noturna e a leitura espacial da ilha.</td>
     <td align="center">
-      <img src="assets/farol.gif" width="180" alt="GIF dos faróis">
+      <img src="assets/farol.gif" width="150" alt="GIF dos faróis">
     </td>
   </tr>
   <tr>
     <td align="center"><strong>Ambientes internos</strong></td>
     <td>Refeitório, controle, enfermagem e celas organizados em sequência para estruturar o percurso do jogador.</td>
     <td align="center">
-      <img src="assets/amb_int.gif" width="180" alt="GIF dos ambientes internos">
+      <img src="assets/amb_int.gif" width="150" alt="GIF dos ambientes internos">
     </td>
   </tr>
   <tr>
     <td align="center"><strong>Sala das celas</strong></td>
     <td>Ambiente mais escuro com lanterna automática e luz vermelha fraca para alterar a atmosfera final do passeio.</td>
     <td align="center">
-      <img src="assets/celas.gif" width="180" alt="GIF da sala das celas">
+      <img src="assets/celas.gif" width="150" alt="GIF da sala das celas">
     </td>
   </tr>
 </table>
