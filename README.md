@@ -4,7 +4,7 @@
 
 ### Passeio Virtual 3D em **WebGL Vanilla**
 
-<img src="assets/readme/banner_alcatraz_brasileira.png" alt="Banner do projeto Alcatraz Brasileira" width="100%">
+<img src="assets/banner_alcatraz_brasileira.png" alt="Banner do projeto Alcatraz Brasileira" width="100%">
 
 <br>
 
