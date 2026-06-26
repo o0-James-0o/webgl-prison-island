@@ -176,37 +176,49 @@ Confira abaixo uma apresentação em vídeo que destaca os principais aspectos d
   <tr align="center">
     <th width="25%">Elemento</th>
     <th width="55%">Descrição técnica</th>
-    <th width="20%">Demonstração conceitual</th>
+    <th width="20%">GIF</th>
   </tr>
   <tr>
     <td align="center"><strong>Introdução cinematográfica</strong></td>
     <td>A câmera inicia no mar, acompanha a chegada pelo Lifeboat e libera os controles após o desembarque.</td>
-    <td align="center"><img src="https://api.iconify.design/mdi:movie-open-play.svg?color=%230B2A66" width="52" alt="Cinemática"></td>
+    <td align="center">
+      <img src="assets/gif_alc.gif" width="180" alt="GIF da introdução cinematográfica">
+    </td>
   </tr>
   <tr>
-    <td align="center"><strong>Sally Port</strong></td>
+    <td align="center"><strong>Portão automático</strong></td>
     <td>Portão externo com abertura automática por proximidade, criando a sensação de entrada controlada na prisão.</td>
-    <td align="center"><img src="https://api.iconify.design/mdi:gate-open.svg?color=%230B2A66" width="52" alt="Portão"></td>
+    <td align="center">
+      <img src="assets/portao.gif" width="180" alt="GIF do portão automático">
+    </td>
   </tr>
   <tr>
     <td align="center"><strong>Posto de fiscalização</strong></td>
     <td>Estrutura 3D com janela fumê, porta lateral automática com pivô realista, mesa, cadeira e monitores.</td>
-    <td align="center"><img src="https://api.iconify.design/mdi:security.svg?color=%230B2A66" width="52" alt="Posto"></td>
+    <td align="center">
+      <img src="assets/post_fisc.gif" width="180" alt="GIF do posto de fiscalização">
+    </td>
   </tr>
   <tr>
     <td align="center"><strong>Faróis</strong></td>
     <td>Torres com feixe visual e rotação contínua, reforçando a ambientação noturna e a leitura espacial da ilha.</td>
-    <td align="center"><img src="https://api.iconify.design/mdi:lighthouse.svg?color=%230B2A66" width="52" alt="Farol"></td>
+    <td align="center">
+      <img src="assets/farol.gif" width="180" alt="GIF dos faróis">
+    </td>
   </tr>
   <tr>
     <td align="center"><strong>Ambientes internos</strong></td>
     <td>Refeitório, controle, enfermagem e celas organizados em sequência para estruturar o percurso do jogador.</td>
-    <td align="center"><img src="https://api.iconify.design/mdi:floor-plan.svg?color=%230B2A66" width="52" alt="Ambientes"></td>
+    <td align="center">
+      <img src="assets/amb_int.gif" width="180" alt="GIF dos ambientes internos">
+    </td>
   </tr>
   <tr>
     <td align="center"><strong>Sala das celas</strong></td>
     <td>Ambiente mais escuro com lanterna automática e luz vermelha fraca para alterar a atmosfera final do passeio.</td>
-    <td align="center"><img src="https://api.iconify.design/mdi:flashlight.svg?color=%230B2A66" width="52" alt="Lanterna"></td>
+    <td align="center">
+      <img src="assets/celas.gif" width="180" alt="GIF da sala das celas">
+    </td>
   </tr>
 </table>
 
