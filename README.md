@@ -235,42 +235,42 @@ Confira abaixo uma apresentação em vídeo que destaca os principais aspectos d
   <tr>
     <td align="center"><strong>Projeção perspectiva</strong></td>
     <td>Matriz perspective própria com FOV, aspect ratio, near e far para gerar profundidade na cena.</td>
-    <td align="center"><img src="https://api.iconify.design/mdi:perspective-less.svg?color=%230B2A66" width="48" alt="Perspectiva"></td>
+    <td align="center"><img src="https://api.iconify.design/mdi:perspective-less.svg?color=%23374151" width="48" alt="Perspectiva"></td>
   </tr>
   <tr>
     <td align="center"><strong>Câmera FPS</strong></td>
     <td>Posição e orientação controladas por teclado e mouse, usando yaw, pitch, forward e right.</td>
-    <td align="center"><img src="https://api.iconify.design/mdi:video-3d.svg?color=%230B2A66" width="48" alt="Câmera FPS"></td>
+    <td align="center"><img src="https://api.iconify.design/mdi:video-3d.svg?color=%2322C55E" width="48" alt="Câmera FPS"></td>
   </tr>
   <tr>
     <td align="center"><strong>Iluminação Phong</strong></td>
     <td>Shader GLSL com componentes ambiente, difusa e especular, além de normais e posição da luz.</td>
-    <td align="center"><img src="https://api.iconify.design/mdi:lightbulb-on.svg?color=%230B2A66" width="48" alt="Phong"></td>
+    <td align="center"><img src="https://api.iconify.design/mdi:lightbulb-on.svg?color=%23FACC15" width="48" alt="Phong"></td>
   </tr>
   <tr>
     <td align="center"><strong>Transformações 3D</strong></td>
     <td>Objetos posicionados com matrizes de translação, rotação e escala, compondo o pipeline Model-View-Projection.</td>
-    <td align="center"><img src="https://api.iconify.design/mdi:axis-arrow.svg?color=%230B2A66" width="48" alt="Transformações"></td>
+    <td align="center"><img src="https://api.iconify.design/mdi:axis-arrow.svg?color=%23EF4444" width="48" alt="Transformações"></td>
   </tr>
   <tr>
     <td align="center"><strong>Animações</strong></td>
     <td>Atualização temporal com deltaTime para farol, portões, barco, oceano, luzes e elementos da cena.</td>
-    <td align="center"><img src="https://api.iconify.design/mdi:animation-play.svg?color=%230B2A66" width="48" alt="Animações"></td>
+    <td align="center"><img src="https://api.iconify.design/mdi:animation-play.svg?color=%23F97316" width="48" alt="Animações"></td>
   </tr>
   <tr>
     <td align="center"><strong>Texturização</strong></td>
     <td>Mapeamento UV, texturas procedurais e imagens para concreto, metal, madeira, placas, céu e faces.</td>
-    <td align="center"><img src="https://api.iconify.design/mdi:texture-box.svg?color=%230B2A66" width="48" alt="Texturas"></td>
+    <td align="center"><img src="https://api.iconify.design/mdi:texture-box.svg?color=%23A16207" width="48" alt="Texturas"></td>
   </tr>
   <tr>
     <td align="center"><strong>Leitor OBJ</strong></td>
     <td>Parser próprio para importar o modelo Lifeboat, interpretando vértices, faces e grupos do arquivo OBJ.</td>
-    <td align="center"><img src="https://api.iconify.design/mdi:cube-scan.svg?color=%230B2A66" width="48" alt="OBJ"></td>
+    <td align="center"><img src="https://api.iconify.design/mdi:cube-scan.svg?color=%237C3AED" width="48" alt="OBJ"></td>
   </tr>
   <tr>
     <td align="center"><strong>Céu HDR</strong></td>
     <td>HDR panorâmico convertido para textura tone-mapped e aplicado como skydome 360° em torno da câmera.</td>
-    <td align="center"><img src="https://api.iconify.design/mdi:panorama-variant.svg?color=%230B2A66" width="48" alt="HDR"></td>
+    <td align="center"><img src="https://api.iconify.design/mdi:panorama-variant.svg?color=%230EA5E9" width="48" alt="HDR"></td>
   </tr>
 </table>
 
