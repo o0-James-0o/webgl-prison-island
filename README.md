@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🏝️ Alcatraz Brasileira
+### Passeio Virtual 3D em **WebGL Vanilla**
 
 <p>
   <img src="assets/banner_alcatraz_brasileira.png" alt="Banner do projeto Alcatraz Brasileira" width="100%">
